@@ -1,0 +1,51 @@
+body{
+    background-color: blue;
+    margin: 0;
+
+}
+
+.main-content{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 720px;
+    background-color: red;
+    margin-left: calc(50% - 640px);
+
+
+}
+.colum {
+height: 502px;
+width: 263px;
+background-color: yellow;
+
+}
+
+.image-conteiner{
+    position: relative;
+    
+}
+
+.number{
+    margin: 0;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: white;
+    border :#51c3cd 5px solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.icon{
+    width: 230px;
+    height: 230px;
+    margin-top: 32px;
+    margin-left: 33px;
+    background-color: #51c3cd;
+
+
+}
